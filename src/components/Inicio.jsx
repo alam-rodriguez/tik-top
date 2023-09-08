@@ -22,7 +22,7 @@ import video8 from '../assets/videos/video8.mp4';
 
 const Inicio = () => {
   return (
-    <main className='inicio container p-0 bg-dark text-white'>
+    <main className='inicio container position-relative p-0 bg-dark text-white'>
 
       <Video
         id={1} 
