@@ -45,7 +45,7 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
 
   return (
     <div className='div-reproductor-video position-relative'>
-      <video className={`reproductor-video reproductor-video-${id} w-100 object-fit-cover`} controls={false} autoPlay={true} onClick={handleVideoClick} >
+      <video className={`reproductor-video reproductor-video-${id} w-100 object-fit-cover`} autoPlay={true} muted playsInline onClick={handleVideoClick} >
         <source src={video} type="video/mp4" />
         Tu navegador no admite la reproducción de videos.
       </video>
