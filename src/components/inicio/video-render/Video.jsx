@@ -15,7 +15,32 @@ import imageDePrueba from '../../../assets/images/imagenDePrueba.png'
 // Componentes
 import VideoEstadisticas from './VideoEstadisticas';
 
+import ReactPlayer from 'react-player';
+
+// import videojs from 'video.js';
+// import 'video.js/dist/video-js.css';
+
 const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, adds, shares, imgPerfil, imgAudio}) => {
+
+  // useEffect(() => {
+  //   // Configura el reproductor de video
+  //   const videoPlayer = videojs('video-player', {
+  //     controls: true,
+  //     sources: [
+  //       {
+  //         src: videoUrl,
+  //         type: 'video/mp4',
+  //       },
+  //     ],
+  //   });
+
+  //   return () => {
+  //     // Limpia el reproductor cuando el componente se desmonta
+  //     if (videoPlayer) {
+  //       videoPlayer.dispose();
+  //     }
+  //   };
+  // }, [videoUrl]);
 
   useEffect( () => {
     const callback = (e) => {
@@ -23,7 +48,7 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
       // console.log(videoIsView);
       if(videoIsView.isIntersecting){
         // console.log('reproducir')
-        // video.play()
+        video.play()
         // video.muted = false;
       }else{
         video.pause();
@@ -38,17 +63,79 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
     const video = document.querySelector(`.reproductor-video-${id}`);
     if(video.paused) {
       video.play();
-      // video.muted = false;
+      video.muted = false;
     }
     else video.pause();
   }
 
+  // const reproducirVideo = () => {
+  //   const tiktokIframe = document.getElementById('tiktok-iframe');
+  //   tiktokIframe.contentWindow.postMessage(
+  //     '{"event":"command","func":"playVideo","args":""}',
+  //     '*'
+  //   );
+  // };
+
+  // const iframeRef = useRef(null);
+
+  // Función para reproducir el video
+  // const reproducirVideo = () => {
+  //   if (iframeRef.current) {
+  //     // Envia un mensaje al iframe para reproducir el video
+  //     iframeRef.current.contentWindow.postMessage('play', '*');
+  //   }
+  // };
+
   return (
     <div className='div-reproductor-video position-relative'>
-      <video className={`reproductor-video reproductor-video-${id} w-100 object-fit-cover`} autoPlay={true} muted playsInline preload='false' onClick={handleVideoClick} >
+      <video className={`reproductor-video reproductor-video-${id} w-100 object-fit-cover`} muted autoPlay playsInline loop onClick={handleVideoClick} >
         <source src={video} type="video/mp4" />
         Tu navegador no admite la reproducción de videos.
       </video>
+
+{/* <div>
+      <video
+        id="video-player" // Usa un ID en lugar de ref
+        className="video-js vjs-default-skin"
+        controls
+        width="640"
+        height="360"
+      ></video>
+    </div> */}
+
+{/* <div>
+      <h1>Reproducir Video en Iframe</h1>
+      <iframe
+        ref={iframeRef}
+        width="560"
+        height="315"
+        src="https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/owbREEhX4uIC7heKP3BBILfWQA8VBkAly1nJqD~tplv-photomode-zoomcover:720:720.avif?x-expires=1694386800&x-signature=sl7chRbdqR6uTK3PWoZOMDKUU0c%3D"
+        frameBorder="0"
+        allowFullScreen
+        title="Video en Iframe"
+      ></iframe>
+      <button onClick={reproducirVideo}>Reproducir Video</button>
+    </div> */}
+
+{/* <ReactPlayer url={video} /> */}
+
+
+    {/* <div>
+      <h1>Video de TikTok</h1>
+      <iframe
+        id="tiktok-iframe"
+        width="560"
+        height="315"
+        src="https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/owbREEhX4uIC7heKP3BBILfWQA8VBkAly1nJqD~tplv-photomode-zoomcover:720:720.avif?x-expires=1694386800&x-signature=sl7chRbdqR6uTK3PWoZOMDKUU0c%3D"
+        frameBorder="0"
+        allowFullScreen
+        title="Video de TikTok"
+      ></iframe>
+      <button onClick={reproducirVideo}>Reproducir Video</button>
+    </div> */}
+
+{/* <iframe className={`reproductor-video reproductor-video-${id}`} width="560" height="315" src='https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/owbREEhX4uIC7heKP3BBILfWQA8VBkAly1nJqD~tplv-photomode-zoomcover:720:720.avif?x-expires=1694386800&x-signature=sl7chRbdqR6uTK3PWoZOMDKUU0c%3D' frameBorder="0" allowFullScreen></iframe> */}
+      
 
       <div className='position-absolute d-flex justify-content-between w-100' style={{top:30}}>
         <div></div>
