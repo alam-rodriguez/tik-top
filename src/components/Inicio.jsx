@@ -66,10 +66,11 @@ const Inicio = () => {
   // }, []);
 
   return (
-    <main className='inicio container position-relative p-0 bg-dark text-white'>
+    <main className='inicio container p-0 bg-dark text-white'>
 
 
-    {/* <Player>
+    <section>
+      {/* <Player>
       <source src="https://www.youtube.com/watch?v=RB5tR_nqUEw" />
     </Player> */}
 
@@ -368,10 +369,13 @@ const Inicio = () => {
         imgPerfil={imageDePrueba}
         imgAudio={imageDePrueba}
       /> */}
+    </section>
 
     
       
+  
       <MenuFooter />
+      
 
       {/* <div className='padre d-flex flex-column overflow-x-scroll gap-4 p-5'>
 
