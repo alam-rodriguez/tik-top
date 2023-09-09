@@ -160,7 +160,7 @@ const Inicio = () => {
       </section>
     </div> */}
 
-      <Video
+      {/* <Video
         id={1} 
         video={video1}
         title='Sex_Lyric...'
@@ -189,6 +189,58 @@ const Inicio = () => {
       <Video
         id={3} 
         video={video3}
+        title='Sex_Lyric...'
+        subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
+        videoAudioName='Este es un texto en movimiento horizontal.'
+        likes='46.0K'
+        comments='126'
+        adds='126'
+        shares='126'
+        imgPerfil={imageDePrueba}
+        imgAudio={imageDePrueba}
+      /> */}
+      <Video
+        id={0} 
+        video={video4}
+        title='Sex_Lyric...'
+        subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
+        videoAudioName='Este es un texto en movimiento horizontal.'
+        likes='46.0K'
+        comments='126'
+        adds='126'
+        shares='126'
+        imgPerfil={imageDePrueba}
+        imgAudio={imageDePrueba}
+      />
+      <Video
+        id={1} 
+        video={video5}
+        title='Sex_Lyric...'
+        subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
+        videoAudioName='Este es un texto en movimiento horizontal.'
+        likes='46.0K'
+        comments='126'
+        adds='126'
+        shares='126'
+        imgPerfil={imageDePrueba}
+        imgAudio={imageDePrueba}
+      />
+      <Video
+        id={2} 
+        video={video4}
+        title='Sex_Lyric...'
+        subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
+        videoAudioName='Este es un texto en movimiento horizontal.'
+        likes='46.0K'
+        comments='126'
+        adds='126'
+        shares='126'
+        imgPerfil={imageDePrueba}
+        imgAudio={imageDePrueba}
+      />
+      <Video
+        id={3} 
+        video={video5}
         title='Sex_Lyric...'
         subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
         videoAudioName='Este es un texto en movimiento horizontal.'
@@ -227,6 +279,58 @@ const Inicio = () => {
       />
       <Video
         id={6} 
+        video={video4}
+        title='Sex_Lyric...'
+        subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
+        videoAudioName='Este es un texto en movimiento horizontal.'
+        likes='46.0K'
+        comments='126'
+        adds='126'
+        shares='126'
+        imgPerfil={imageDePrueba}
+        imgAudio={imageDePrueba}
+      />
+      <Video
+        id={7} 
+        video={video5}
+        title='Sex_Lyric...'
+        subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
+        videoAudioName='Este es un texto en movimiento horizontal.'
+        likes='46.0K'
+        comments='126'
+        adds='126'
+        shares='126'
+        imgPerfil={imageDePrueba}
+        imgAudio={imageDePrueba}
+      />
+      <Video
+        id={8} 
+        video={video4}
+        title='Sex_Lyric...'
+        subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
+        videoAudioName='Este es un texto en movimiento horizontal.'
+        likes='46.0K'
+        comments='126'
+        adds='126'
+        shares='126'
+        imgPerfil={imageDePrueba}
+        imgAudio={imageDePrueba}
+      />
+      <Video
+        id={9} 
+        video={video5}
+        title='Sex_Lyric...'
+        subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
+        videoAudioName='Este es un texto en movimiento horizontal.'
+        likes='46.0K'
+        comments='126'
+        adds='126'
+        shares='126'
+        imgPerfil={imageDePrueba}
+        imgAudio={imageDePrueba}
+      />
+      {/* <Video
+        id={6} 
         video={video6}
         title='Sex_Lyric...'
         subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
@@ -263,7 +367,7 @@ const Inicio = () => {
         shares='126'
         imgPerfil={imageDePrueba}
         imgAudio={imageDePrueba}
-      />
+      /> */}
 
     
       
