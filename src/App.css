@@ -1,5 +1,6 @@
 .reproductor-video{
-  height: calc(100vh - 85px);
+  /* height: calc(100% - 85px); */
+  height: 800px;
 }
 
 .inicio{
