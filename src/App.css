@@ -1,6 +1,6 @@
 .reproductor-video{
   /* height: calc(100vh - 85px); */
-  height: 100%;
+  /* height: 100%; */
 }
 
 .inicio{
@@ -11,7 +11,7 @@
 }
 .div-reproductor-video {
   scroll-snap-align: start;
-  height: 100%;
+  /* height: 100%; */
 }
 
 
