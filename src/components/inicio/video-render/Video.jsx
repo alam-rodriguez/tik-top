@@ -148,7 +148,7 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
         <LuSearch className='display-6 me-3' />
       </div>
 
-      <div className='position-absolute w-75' style={{bottom:15, left:12}}>
+      <div className='position-absolute w-75' style={{bottom:95, left:12}}>
         <p className='mb-2' style={{fontSize:16}}>{title}</p>
         <p className='mb-1' style={{fontSize:14}}>{subtitle}</p>
         <div className='d-flex align-items-center gap-2'>
@@ -157,7 +157,7 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
         </div>
       </div>
 
-      <div className='position-absolute d-flex flex-column align-items-center gap-4' style={{bottom:15, right:12}}>
+      <div className='position-absolute d-flex flex-column align-items-center gap-4' style={{bottom:95, right:12}}>
 
         <div className='rounded-circle overflow-hidden- mb-5- position-relative border border-5 border-white' style={{width:50}}>
           <img className='rounded-circle w-100 ' src={imgPerfil} />
