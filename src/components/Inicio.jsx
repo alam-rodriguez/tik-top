@@ -27,11 +27,11 @@ import ReactPlayer from 'react-player'
 
 const Inicio = () => {
 
-  useEffect( () => {
-    const barraDeNavegacion = document.querySelector('.barra-de-navegacion');
-    if(barraDeNavegacion == null) return;
-    barraDeNavegacion.style.top = '-100px';
-  }, [] );
+  // useEffect( () => {
+  //   const barraDeNavegacion = document.querySelector('.barra-de-navegacion');
+  //   if(barraDeNavegacion == null) return;
+  //   barraDeNavegacion.style.top = '-100px';
+  // }, [] );
 
   // const [videos, setVideos] = useState([]);
   // const tiktokApi = new TikTokAPI();
