@@ -1,10 +1,10 @@
 .reproductor-video{
-  /* height: calc(100vh - 0px); */
-  height: 100vh;
+  height: calc(100vh - 130px);
+  /* height: 100vh; */
 }
 
 .inicio{
-  height: calc(100vh - 0px);
+  height: calc(100vh - 130px);
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   
