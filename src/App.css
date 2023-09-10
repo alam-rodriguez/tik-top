@@ -4,24 +4,25 @@
 }
 
 .App{
-  background: #000;
-  height: 100vh;
-  display: grid;
-  place-content: center;
+  /* background: #000; */
+  /* height: 100vh; */
+  /* display: grid; */
+  /* place-content: center; */
 }
 
 main {
-  border: 1px solid #fff;
-  aspect-ratio: 9/16;
-  border-radius: 3px;
-  max-width: 375px;
-  width: 100vw;
+  /* border: 1px solid #fff; */
+  /* aspect-ratio: 9/16; */
+  /* border-radius: 3px; */
+  /* max-width: 375px; */
+  /* width: 100vw; */
+  height: 100vh;
 
 }
 .inicio{
   /* height: calc(100vh - 0px); */
   /* height: 1000px; */
-  height: 100vh;
+  /* height: 100vh; */
   overflow-y: scroll;
   /* min-height: 300px; */
   scroll-snap-type: y mandatory;
