@@ -374,7 +374,7 @@ const Inicio = () => {
     
       
   
-      <MenuFooter />
+      {/* <MenuFooter /> */}
       
 
       {/* <div className='padre d-flex flex-column overflow-x-scroll gap-4 p-5'>
