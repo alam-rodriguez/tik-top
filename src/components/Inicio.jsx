@@ -29,6 +29,7 @@ const Inicio = () => {
 
   useEffect( () => {
     const barraDeNavegacion = document.querySelector('.barra-de-navegacion');
+    if(barraDeNavegacion == null) return;
     barraDeNavegacion.style.top = '-100px';
   }, [] );
 
