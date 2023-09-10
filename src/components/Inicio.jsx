@@ -66,7 +66,7 @@ const Inicio = () => {
   // }, []);
 
   return (
-    <main className='inicio container p-0 bg-dark text-white vh-100'>
+    <main className='inicio container p-0 bg-dark text-white position-relative'>
 
 
     <section style={{height:'90vh'}}>
