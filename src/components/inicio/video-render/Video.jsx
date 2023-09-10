@@ -87,7 +87,7 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
   // };
 
   return (
-    <div className='position-sticky div-reproductor-video' style={{height:'90vh'}}>
+    <div className='position-sticky div-reproductor-video' style={{height:'100%'}}>
       <video className={`h-100 reproductor-video reproductor-video-${id} w-100 object-fit-cover`} muted autoPlay playsInline loop onClick={handleVideoClick}  >
         <source src={video} type="video/mp4" />
         Tu navegador no admite la reproducción de videos.
