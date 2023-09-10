@@ -20,6 +20,8 @@ import ReactPlayer from 'react-player';
 // import videojs from 'video.js';
 // import 'video.js/dist/video-js.css';
 
+// const video = 'https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D';
+
 const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, adds, shares, imgPerfil, imgAudio}) => {
 
   // useEffect(() => {
@@ -87,7 +89,7 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
   // };
 
   return (
-    <div className='position-sticky div-reproductor-video' style={{height:'100%'}}>
+    <div className='position-sticky div-reproductor-video h-100'>
       <video className={`h-100 reproductor-video reproductor-video-${id} w-100 object-fit-cover`} muted autoPlay playsInline loop onClick={handleVideoClick}  >
         <source src={video} type="video/mp4" />
         Tu navegador no admite la reproducción de videos.
