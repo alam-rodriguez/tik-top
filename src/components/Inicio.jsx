@@ -220,9 +220,9 @@ const Inicio = () => {
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
   />
-  {/* <Video
+  <Video
     id={1} 
-    video={video5}
+    video='https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -235,7 +235,7 @@ const Inicio = () => {
   />
   <Video
     id={2} 
-    video={video4}
+    video='https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -248,7 +248,7 @@ const Inicio = () => {
   />
   <Video
     id={3} 
-    video={video5}
+    video='https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -261,7 +261,7 @@ const Inicio = () => {
   />
   <Video
     id={4} 
-    video={video4}
+    video='https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -274,7 +274,7 @@ const Inicio = () => {
   />
   <Video
     id={5} 
-    video={video5}
+    video='https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -287,7 +287,7 @@ const Inicio = () => {
   />
   <Video
     id={6} 
-    video={video4}
+    video='https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -300,7 +300,7 @@ const Inicio = () => {
   />
   <Video
     id={7} 
-    video={video5}
+    video='https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -313,7 +313,7 @@ const Inicio = () => {
   />
   <Video
     id={8} 
-    video={video4}
+    video='https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -326,7 +326,7 @@ const Inicio = () => {
   />
   <Video
     id={9} 
-    video={video5}
+    video='https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694369904~exp=1694384304~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=a1215004044fccfa1be9c5bc83d32194d664564c44e1691400445bf0264dd35a&r=dXMtd2VzdDE%3D'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -336,8 +336,9 @@ const Inicio = () => {
     shares='126'
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
-  /> */}
-  {/* <Video
+  /> 
+  
+   {/* <Video
     id={6} 
     video={video6}
     title='Sex_Lyric...'
