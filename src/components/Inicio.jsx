@@ -66,10 +66,10 @@ const Inicio = () => {
   // }, []);
 
   return (
-    <main className='inicio container p-0 bg-dark text-white'>
+    <main className='inicio container p-0 bg-dark text-white vh-100'>
 
 
-    <section>
+    <section style={{height:'90vh'}}>
       {/* <Player>
       <source src="https://www.youtube.com/watch?v=RB5tR_nqUEw" />
     </Player> */}
