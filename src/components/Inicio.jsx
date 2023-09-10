@@ -76,7 +76,7 @@ const Inicio = () => {
       <main className='inicio container p-0 bg-dark text-white position-relative'>
 
 
-<section style={{height:'90%'}}>
+<section style={{height:'100%'}}>
   {/* <Player>
   <source src="https://www.youtube.com/watch?v=RB5tR_nqUEw" />
 </Player> */}
