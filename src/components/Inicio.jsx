@@ -25,7 +25,7 @@ import video8 from '../assets/videos/video8.mp4';
 
 import ReactPlayer from 'react-player';
 
-const videoUrl = 'https://i.vimeocdn.com/video/1713334501-5de3620506e2fcfebff675a44eb7fc49c7ad0d13edbc68455e8669f47329c4a5-d?mw=500&mh=887&q=70'
+const videoUrl = 'https://i.vimeocdn.com/video/843604722-5f2aeb030bcfbd044f6e840582c041651657147f610be446192b5da7a9c93fdf-d?mw=800&mh=450&q=70'
 
 import useDeviceHeight from '../hooks/useDeviceHeight';
 
