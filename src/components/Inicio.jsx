@@ -85,10 +85,10 @@ const Inicio = () => {
 
   return (
     <div className='App'>
-      <main className='inicio container p-0 bg-dark text-white position-relative'>
+      <main className='inicio container p-0 bg-dark text-white position-relative- vh-100'>
 
 
-<section style={{height:'80vh'}}>
+<section style={{height:'90%'}}>
   {/* <Player>
   <source src="https://www.youtube.com/watch?v=RB5tR_nqUEw" />
 </Player> */}
