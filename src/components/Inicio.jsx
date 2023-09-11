@@ -245,7 +245,7 @@ const Inicio = () => {
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
   />
-  {/* <Video
+  <Video
     id={2} 
     video={videoUrl}
     title='Sex_Lyric...'
@@ -348,7 +348,7 @@ const Inicio = () => {
     shares='126'
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
-  />  */}
+  /> 
   
    {/* <Video
     id={6} 
