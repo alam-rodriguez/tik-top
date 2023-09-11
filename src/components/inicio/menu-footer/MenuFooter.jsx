@@ -12,23 +12,23 @@ const MenuFooter = () => {
       <nav className='d-flex justify-content-around'>
 
         <Iconos
-          icon={<AiFillHome className='fs-2' />}
+          icon={<AiFillHome className='fs-3 text-white' />}
           text='Inicio'
         />
         <Iconos
-          icon={<AiFillHome className='fs-2' />}
+          icon={<AiFillHome className='fs-3 text-white' />}
           text='Amigos'
         />
         <Iconos
-          icon={<AiFillHome className='fs-2' />}
+          icon={<AiFillHome className='fs-3 text-white' />}
           text=''
         />
         <Iconos
-          icon={<AiFillHome className='fs-2' />}
-          text='Bandeja de entrada'
+          icon={<AiFillHome className='fs-3 text-white' />}
+          text='Bandeja'
         />
         <Iconos
-          icon={<AiFillHome className='fs-2' />}
+          icon={<AiFillHome className='fs-3 text-white' />}
           text='Perfil'
         />
 

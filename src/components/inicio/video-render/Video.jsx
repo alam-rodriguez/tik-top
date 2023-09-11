@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 // React-icons
 import { BsFillBookmarkFill, BsFillChatDotsFill, BsHeartFill, BsMusicNoteBeamed } from 'react-icons/bs'
 import { PiShareFatFill } from 'react-icons/pi';
-import { HiOutlinePlusSm } from 'react-icons/hi';
+import { HiOutlineMenu, HiOutlinePlusSm } from 'react-icons/hi';
 import { LuSearch } from 'react-icons/lu'
 
 // video
@@ -16,6 +16,10 @@ import imageDePrueba from '../../../assets/images/imagenDePrueba.png'
 import VideoEstadisticas from './VideoEstadisticas';
 
 import ReactPlayer from 'react-player';
+import { AiOutlineMenu } from 'react-icons/ai';
+import { CiMenuBurger } from 'react-icons/ci';
+
+import { LuMenu } from 'react-icons/lu'
 
 // import videojs from 'video.js';
 // import 'video.js/dist/video-js.css';
@@ -139,16 +143,16 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
 {/* <iframe className={`reproductor-video reproductor-video-${id}`} width="560" height="315" src='https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/owbREEhX4uIC7heKP3BBILfWQA8VBkAly1nJqD~tplv-photomode-zoomcover:720:720.avif?x-expires=1694386800&x-signature=sl7chRbdqR6uTK3PWoZOMDKUU0c%3D' frameBorder="0" allowFullScreen></iframe> */}
       
 
-      <div className='position-absolute d-flex justify-content-between w-100' style={{top:30}}>
-        <div></div>
+      <div className='position-fixed d-flex justify-content-between w-100 text-white p-3 pt-2' style={{top:0}}>
+        <LuMenu className='display-6' />
         <div className='d-flex gap-3'>
-          <p className='m-0 fs-6'>Siguiendo</p>
-          <p className='m-0 fs-6'>Para ti</p>
+          <p className='m-0' style={{fontSize:17}}>Siguiendo</p>
+          <p className='m-0' style={{fontSize:17}}>Para ti</p>
         </div>
-        <LuSearch className='display-6 me-3' />
+        <LuSearch className='display-6' />
       </div>
 
-      <div className='position-absolute w-75' style={{bottom:95, left:12}}>
+      <div className='position-absolute w-75 text-white' style={{bottom:15, left:12}}>
         <p className='mb-2' style={{fontSize:16}}>{title}</p>
         <p className='mb-1' style={{fontSize:14}}>{subtitle}</p>
         <div className='d-flex align-items-center gap-2'>
@@ -157,7 +161,7 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
         </div>
       </div>
 
-      <div className='position-absolute d-flex flex-column align-items-center gap-4' style={{bottom:95, right:12}}>
+      <div className='position-absolute d-flex flex-column align-items-center gap-4' style={{bottom:15, right:12}}>
 
         <div className='rounded-circle overflow-hidden- mb-5- position-relative border border-5 border-white' style={{width:50}}>
           <img className='rounded-circle w-100 ' src={imgPerfil} />
