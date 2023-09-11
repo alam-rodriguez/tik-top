@@ -424,7 +424,7 @@ const Inicio = () => {
       
     </div> */}
 
-    <MenuFooter />
+    {/* <MenuFooter /> */}
 </main>
     </div>
   )
