@@ -23,7 +23,7 @@ main {
   /* height: calc(100vh - 0px); */
   /* height: 1000px; */
 
-  height: 100vh;
+  height: 90vh;
   overflow-y: scroll;
   /* min-height: 300px; */
   scroll-snap-type: y mandatory;

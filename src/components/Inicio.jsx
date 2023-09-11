@@ -85,10 +85,10 @@ const Inicio = () => {
 
   return (
     <div className='App'>
-      <main className='inicio container p-0 bg-dark text-white position-relative- vh-100'>
+      <main className=' container p-0 bg-dark text-white position-relative- vh-100'>
 
 
-<section style={{height:'90%'}}>
+<section className='inicio overflow-hidden-' style={{height:'90%'}}>
   {/* <Player>
   <source src="https://www.youtube.com/watch?v=RB5tR_nqUEw" />
 </Player> */}
@@ -245,7 +245,7 @@ const Inicio = () => {
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
   />
-  <Video
+  {/* <Video
     id={2} 
     video={videoUrl}
     title='Sex_Lyric...'
@@ -348,7 +348,7 @@ const Inicio = () => {
     shares='126'
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
-  /> 
+  />  */}
   
    {/* <Video
     id={6} 
@@ -394,37 +394,37 @@ const Inicio = () => {
 
   
 
-  <MenuFooter />
   
 
   {/* <div className='padre d-flex flex-column overflow-x-scroll gap-4 p-5'>
 
-    <div className='hijo bg-danger'>
-      <img src={img} alt="" />
-    </div>
+<div className='hijo bg-danger'>
+<img src={img} alt="" />
+</div>
+
+<div className='hijo bg-danger'>
+<img src={img} alt="" />
+</div>
 
     <div className='hijo bg-danger'>
       <img src={img} alt="" />
-    </div>
-
-    <div className='hijo bg-danger'>
+      </div>
+      
+      <div className='hijo bg-danger'>
       <img src={img} alt="" />
-    </div>
+      </div>
 
-    <div className='hijo bg-danger'>
+      <div className='hijo bg-danger'>
       <img src={img} alt="" />
-    </div>
+      </div>
 
-    <div className='hijo bg-danger'>
+      <div className='hijo bg-danger'>
       <img src={img} alt="" />
-    </div>
+      </div>
+      
+    </div> */}
 
-    <div className='hijo bg-danger'>
-      <img src={img} alt="" />
-    </div>
-
-  </div> */}
-
+    <MenuFooter />
 </main>
     </div>
   )
