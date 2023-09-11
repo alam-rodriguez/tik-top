@@ -143,7 +143,7 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
 {/* <iframe className={`reproductor-video reproductor-video-${id}`} width="560" height="315" src='https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/owbREEhX4uIC7heKP3BBILfWQA8VBkAly1nJqD~tplv-photomode-zoomcover:720:720.avif?x-expires=1694386800&x-signature=sl7chRbdqR6uTK3PWoZOMDKUU0c%3D' frameBorder="0" allowFullScreen></iframe> */}
       
 
-      <div className='position-fixed d-flex justify-content-between w-100 text-white p-3 pt-2' style={{top:0}}>
+      <div className='position-fixed start-0 d-flex justify-content-between w-100 text-white p-3 pt-2' style={{top:0}}>
         <LuMenu className='display-6' />
         <div className='d-flex gap-3'>
           <p className='m-0' style={{fontSize:17}}>Siguiendo</p>
