@@ -25,7 +25,7 @@ import video8 from '../assets/videos/video8.mp4';
 
 import ReactPlayer from 'react-player';
 
-const videoUrl = 'https://download-video.akamaized.net/v2-1/playback/ce9c2096-cd0c-48fb-a222-47aa7cfb4d06/656cbc0e-d45cae72?__token__=st=1694390097~exp=1694404497~acl=%2Fv2-1%2Fplayback%2Fce9c2096-cd0c-48fb-a222-47aa7cfb4d06%2F656cbc0e-d45cae72%2A~hmac=3efa75e83a9fcc02d4061bb45061dd7e0d22a3222de1cd49e17e5f5e70d08be4&r=dXMtd2VzdDE%3D'
+const videoUrl = 'https://i.vimeocdn.com/video/1713334501-5de3620506e2fcfebff675a44eb7fc49c7ad0d13edbc68455e8669f47329c4a5-d?mw=500&mh=887&q=70'
 
 import useDeviceHeight from '../hooks/useDeviceHeight';
 
