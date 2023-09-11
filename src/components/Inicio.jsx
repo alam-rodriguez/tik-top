@@ -85,7 +85,7 @@ const Inicio = () => {
 
   return (
     <div className='App'>
-      <main className='inicio container p-0 bg-dark text-white position-relative' style={{height:height}}>
+      <main className='inicio container p-0 bg-dark text-white position-relative'>
 
 
 <section style={{height:'100%'}}>
