@@ -29,6 +29,8 @@ const videoUrl = 'https://pin.it/22uetq0'
 
 import useDeviceHeight from '../hooks/useDeviceHeight';
 
+const imgPerfil = 'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/5d622f26e39c4614a8652c1098285396~c5_100x100.jpeg?x-expires=1694628000&x-signature=BVbFYX%2FDbkD32%2FQzR8kgAiaOAWM%3D';
+
 const Inicio = () => {
 
   const deviceHeight = useDeviceHeight();
@@ -229,7 +231,7 @@ const Inicio = () => {
     comments='126'
     adds='126'
     shares='126'
-    imgPerfil={imageDePrueba}
+    imgPerfil={imgPerfil}
     imgAudio={imageDePrueba}
   />
   <Video
@@ -242,7 +244,7 @@ const Inicio = () => {
     comments='126'
     adds='126'
     shares='126'
-    imgPerfil={imageDePrueba}
+    imgPerfil={imgPerfil}
     imgAudio={imageDePrueba}
   />
   <Video
@@ -255,7 +257,7 @@ const Inicio = () => {
     comments='126'
     adds='126'
     shares='126'
-    imgPerfil={imageDePrueba}
+    imgPerfil={imgPerfil}
     imgAudio={imageDePrueba}
   />
   <Video
@@ -268,7 +270,7 @@ const Inicio = () => {
     comments='126'
     adds='126'
     shares='126'
-    imgPerfil={imageDePrueba}
+    imgPerfil={imgPerfil}
     imgAudio={imageDePrueba}
   />
   <Video
@@ -281,7 +283,7 @@ const Inicio = () => {
     comments='126'
     adds='126'
     shares='126'
-    imgPerfil={imageDePrueba}
+    imgPerfil={imgPerfil}
     imgAudio={imageDePrueba}
   />
   <Video
@@ -294,7 +296,7 @@ const Inicio = () => {
     comments='126'
     adds='126'
     shares='126'
-    imgPerfil={imageDePrueba}
+    imgPerfil={imgPerfil}
     imgAudio={imageDePrueba}
   />
   <Video
@@ -307,7 +309,7 @@ const Inicio = () => {
     comments='126'
     adds='126'
     shares='126'
-    imgPerfil={imageDePrueba}
+    imgPerfil={imgPerfil}
     imgAudio={imageDePrueba}
   />
   <Video
@@ -320,7 +322,7 @@ const Inicio = () => {
     comments='126'
     adds='126'
     shares='126'
-    imgPerfil={imageDePrueba}
+    imgPerfil={imgPerfil}
     imgAudio={imageDePrueba}
   />
   <Video
@@ -333,7 +335,7 @@ const Inicio = () => {
     comments='126'
     adds='126'
     shares='126'
-    imgPerfil={imageDePrueba}
+    imgPerfil={imgPerfil}
     imgAudio={imageDePrueba}
   />
   {/* <Video

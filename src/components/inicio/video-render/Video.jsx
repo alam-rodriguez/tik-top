@@ -161,13 +161,24 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
         </div>
       </div>
 
-      <div className='position-absolute d-flex flex-column align-items-center gap-4' style={{bottom:15, right:12}}>
+      <div className='position-absolute d-flex flex-column align-items-center gap-3' style={{bottom:15, right:12}}>
 
-        <div className='rounded-circle overflow-hidden- mb-5- position-relative border border-5 border-white' style={{width:50}}>
+        {/* <div className='rounded-circle overflow-hidden- mb-5- position-relative border border-5 border-white' style={{width:50}}>
           <img className='rounded-circle w-100 ' src={imgPerfil} />
           <HiOutlinePlusSm className='fs-6 rounded-circle bg-danger position-absolute start-50 translate-middle-x' style={{bottom:-10}} />
+        </div> */}
+        {/* <div className='divAuthor' style={{backgroundImage:URL(imgPerfil)}}>
+
+        </div> */}
+        <div className='divAuthor mb-3' style={{ backgroundImage: `url(${imgPerfil})` }}>
+          <HiOutlinePlusSm className='fs-6 rounded-circle bg-danger position-absolute start-50 translate-middle-x text-white' style={{bottom:-10}} />
         </div>
-        
+        {/* <div className="matrix-smart-wrapper">
+          <div data-e2e="follow-button" class="tiktok-rm2ncs-DivFollowPlus efwayy20" style="position: absolute; left: 50%; bottom: 0px; transform: translate(-50%);">
+            <svg width="23" data-e2e height="23" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+          </div>
+        </div> */}
+
         <VideoEstadisticas 
           icon={<BsHeartFill className='display-6' />}
           numero={likes}
@@ -176,16 +187,43 @@ const Video = ({id, video, title, subtitle, videoAudioName, likes, comments, add
           icon={<BsFillChatDotsFill className='display-6' />}
           numero={comments}
         />
-        <VideoEstadisticas
+        {/* <VideoEstadisticas
           icon={<BsFillBookmarkFill className='display-6' />}
           numero={adds}
-        />
+        /> */}
         <VideoEstadisticas 
           icon={<PiShareFatFill className='display-6' />}
           numero={shares}
         />
 
-        <img className='rounded-circle' src={imgAudio} style={{width:35}} />
+        <div className='img-rotating'>
+          <img className='rounded-circle object-fit-cover' src={imgAudio} style={{width:35, height:35}} />
+        </div>
+
+
+        {/* <div className="tiktok-18x0pdc-DivMusic e365p2r11">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 49 49" width="1em" height="1em" className="tiktok-16zhvva-StyledIconAlbum e365p2r12"></svg>
+          <div class="tiktok-q48wa9-DivMusicCover e365p2r13" style="background-image: url(&quot;https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/5d622f26e39c4614a8652c1098285396~c5_100x100.jpeg?x-expires=1694628000&x-signature=BVbFYX%2FDbkD32%2FQzR8kgAiaOAWM%3D&quot;); background-size: cover;"></div>
+        </div> */}
+        {/* <div className="tiktok-18x0pdc-DivMusic e365p2r11">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 49 49"
+    width="1em"
+    height="1em"
+    className="tiktok-16zhvva-StyledIconAlbum e365p2r12"
+  ></svg>
+  <div
+    className="tiktok-q48wa9-DivMusicCover e365p2r13"
+    style={{
+      backgroundImage:
+        'url("https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/5d622f26e39c4614a8652c1098285396~c5_100x100.jpeg?x-expires=1694628000&x-signature=BVbFYX%2FDbkD32%2FQzR8kgAiaOAWM%3D")',
+      backgroundSize: 'cover',
+    }}
+  ></div>
+</div> */}
+
         
       </div>
     </div>
