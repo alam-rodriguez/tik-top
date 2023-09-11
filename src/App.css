@@ -16,13 +16,13 @@ main {
   /* border-radius: 3px; */
   /* max-width: 375px; */
   /* width: 100vw; */
-  height: 800px;
+  /* height: ; */
 
 }
 .inicio{
   /* height: calc(100vh - 0px); */
   /* height: 1000px; */
-  /* height: 100vh; */
+  height: 100vh;
   overflow-y: scroll;
   /* min-height: 300px; */
   scroll-snap-type: y mandatory;
