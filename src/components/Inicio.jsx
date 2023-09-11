@@ -222,21 +222,8 @@ const Inicio = () => {
     imgAudio={imageDePrueba}
   /> */}
   <Video
-    id={0} 
-    video={video1}
-    title='Sex_Lyric...'
-    subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
-    videoAudioName='Este es un texto en movimiento horizontal.'
-    likes='46.0K'
-    comments='126'
-    adds='126'
-    shares='126'
-    imgPerfil={imgPerfil}
-    imgAudio={imageDePrueba}
-  />
-  <Video
     id={1} 
-    video={video1}
+    video='https://firebasestorage.googleapis.com/v0/b/counter-app-6c82a.appspot.com/o/video1.mp4?alt=media&token=3c42ad3c-46b5-4aaf-953b-dd6784da7b75'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -249,7 +236,7 @@ const Inicio = () => {
   />
   <Video
     id={2} 
-    video={video2}
+    video='https://firebasestorage.googleapis.com/v0/b/counter-app-6c82a.appspot.com/o/video2.mp4?alt=media&token=9ba496c7-4e63-4efe-8ae2-a131ac55f701'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -262,7 +249,7 @@ const Inicio = () => {
   />
   <Video
     id={3} 
-    video={video3}
+    video='https://firebasestorage.googleapis.com/v0/b/counter-app-6c82a.appspot.com/o/video3.mp4?alt=media&token=314f8fac-3d61-4f8f-87da-4e525b84f810'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -275,7 +262,7 @@ const Inicio = () => {
   />
   <Video
     id={4} 
-    video={video4}
+    video='https://firebasestorage.googleapis.com/v0/b/counter-app-6c82a.appspot.com/o/video4.mp4?alt=media&token=0ddb97bb-4f55-4f0b-acae-c87e2915be33'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -288,7 +275,7 @@ const Inicio = () => {
   />
   <Video
     id={5} 
-    video={video5}
+    video='https://firebasestorage.googleapis.com/v0/b/counter-app-6c82a.appspot.com/o/video5.mp4?alt=media&token=888bf739-bc9a-4a05-a303-b91a3d88c904'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -301,7 +288,7 @@ const Inicio = () => {
   />
   <Video
     id={6} 
-    video={video6}
+    video='https://firebasestorage.googleapis.com/v0/b/counter-app-6c82a.appspot.com/o/video6.mp4?alt=media&token=22939648-a978-4265-b564-00fb426294a5'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -314,7 +301,7 @@ const Inicio = () => {
   />
   <Video
     id={7} 
-    video={video7}
+    video='https://firebasestorage.googleapis.com/v0/b/counter-app-6c82a.appspot.com/o/video7.mp4?alt=media&token=3881cef0-7ea9-45fb-8131-adbb15a6ec87'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -327,7 +314,7 @@ const Inicio = () => {
   />
   <Video
     id={8} 
-    video={video8}
+    video='https://firebasestorage.googleapis.com/v0/b/counter-app-6c82a.appspot.com/o/video8.mp4?alt=media&token=6a1ac880-6148-4722-9241-c429e5cb2c77'
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
