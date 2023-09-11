@@ -6,7 +6,7 @@
 
 html {
   min-height: -webkit-fill-available;
-  background: green;
+  background: #000;
 }
 
 .App{
@@ -53,19 +53,22 @@ main {
   right: 0; */
 
   /* height: -webkit-fill-available; */
+  /* height: 100%; */
+  /* background-color: red; */
 
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+
   /* display: -webkit-box; */
   /* display: -webkit-flex; */
-  display: -ms-flexbox;
-  display: flex;
+  /* display: -ms-flexbox; */
+  /* display: flex; */
   /* -webkit-flex-direction: column; */
   /* -ms-flex-direction: column; */
-  flex-direction: column;
+  /* flex-direction: column; */
 
 }
 .inicio{
@@ -76,17 +79,19 @@ main {
   /* height: 90vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory; */
+
+  height: calc(100% - 0px);
   
-  aspect-ratio: 9/16;
-  border-radius: 3px;
-  display: block;
-  height: auto;
+  /* aspect-ratio: 9/16; */
+  /* border-radius: 3px; */
+  /* display: block; */
+  /* height: auto; */
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   
 }
 .div-reproductor-video {
-  /* scroll-snap-align: start; */
+  scroll-snap-align: start;
   /* height: 100%; */
 }
 

@@ -85,10 +85,10 @@ const Inicio = () => {
 
   return (
     <div className='App'>
-      <main className=' container p-0 bg-dark- text-white position-relative- '>
+      <main className=''>
 
 
-<section className='inicio ' style={{height:'100%'}}>
+<section className='inicio '>
   {/* <Player>
   <source src="https://www.youtube.com/watch?v=RB5tR_nqUEw" />
 </Player> */}
@@ -219,7 +219,7 @@ const Inicio = () => {
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
   /> */}
-  {/* <Video
+  <Video
     id={0} 
     video={video1}
     title='Sex_Lyric...'
@@ -335,7 +335,7 @@ const Inicio = () => {
     shares='126'
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
-  /> */}
+  />
   {/* <Video
     id={9} 
     video={video9}
