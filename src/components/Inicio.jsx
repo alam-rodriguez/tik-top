@@ -25,7 +25,7 @@ import video8 from '../assets/videos/video8.mp4';
 
 import ReactPlayer from 'react-player';
 
-const videoUrl = 'https://i.vimeocdn.com/video/843604722-5f2aeb030bcfbd044f6e840582c041651657147f610be446192b5da7a9c93fdf-d?mw=800&mh=450&q=70'
+const videoUrl = 'https://pin.it/22uetq0'
 
 import useDeviceHeight from '../hooks/useDeviceHeight';
 
@@ -221,7 +221,7 @@ const Inicio = () => {
   /> */}
   <Video
     id={0} 
-    video={videoUrl}
+    video={video1}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -234,7 +234,7 @@ const Inicio = () => {
   />
   <Video
     id={1} 
-    video={videoUrl}
+    video={video1}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -247,7 +247,7 @@ const Inicio = () => {
   />
   <Video
     id={2} 
-    video={videoUrl}
+    video={video2}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -260,7 +260,7 @@ const Inicio = () => {
   />
   <Video
     id={3} 
-    video={videoUrl}
+    video={video3}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -273,7 +273,7 @@ const Inicio = () => {
   />
   <Video
     id={4} 
-    video={videoUrl}
+    video={video4}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -286,7 +286,7 @@ const Inicio = () => {
   />
   <Video
     id={5} 
-    video={videoUrl}
+    video={video5}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -299,7 +299,7 @@ const Inicio = () => {
   />
   <Video
     id={6} 
-    video={videoUrl}
+    video={video6}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -312,7 +312,7 @@ const Inicio = () => {
   />
   <Video
     id={7} 
-    video={videoUrl}
+    video={video7}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -325,7 +325,7 @@ const Inicio = () => {
   />
   <Video
     id={8} 
-    video={videoUrl}
+    video={video8}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -336,9 +336,9 @@ const Inicio = () => {
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
   />
-  <Video
+  {/* <Video
     id={9} 
-    video={videoUrl}
+    video={video9}
     title='Sex_Lyric...'
     subtitle='Donde esta mi amor #zacariasferreira #letrasdecanciones #Dedicar'
     videoAudioName='Este es un texto en movimiento horizontal.'
@@ -348,7 +348,7 @@ const Inicio = () => {
     shares='126'
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
-  /> 
+  />  */}
   
    {/* <Video
     id={6} 
