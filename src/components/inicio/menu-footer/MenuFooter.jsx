@@ -8,7 +8,7 @@ import Iconos from './Iconos';
 
 const MenuFooter = () => {
   return (
-    <footer className='position-fixed start-0 bottom-0 bg-black w-100 py-2' style={{height:'10%'}}>
+    <footer className='position-sticky start-0 bottom-0 bg-black w-100 py-2' style={{height:'10%'}}>
       <nav className='d-flex justify-content-around'>
 
         <Iconos

@@ -88,7 +88,7 @@ const Inicio = () => {
       <main className='inicio container p-0 bg-dark text-white position-relative'>
 
 
-<section style={{height:'100%'}}>
+{/* <section style={{height:'100%'}}> */}
   {/* <Player>
   <source src="https://www.youtube.com/watch?v=RB5tR_nqUEw" />
 </Player> */}
@@ -389,7 +389,7 @@ const Inicio = () => {
     imgPerfil={imageDePrueba}
     imgAudio={imageDePrueba}
   /> */}
-</section>
+{/* </section> */}
 
 
   
